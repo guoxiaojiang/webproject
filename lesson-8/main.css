@@ -1,0 +1,95 @@
+/*页面初始化*/
+html, body, h1, h2, h3, p, li, ol, ul, a{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+h1 {
+    margin: 10px 0 15px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    color: #79B1A3;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+h3 {
+    margin: 15px 0;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*以下顺序按照事件发生的顺序，否则，某些效果不生效*/
+
+/*未访问的超连接*/
+a:link{
+    color: darkblue;
+}
+
+ul{
+    padding: 0 0 0 50px;
+}
+
+ol{
+    padding: 0 0 0 50px;
+}
+
+/*类选择器*/
+.nav {
+    padding-left:0;
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.recipes{
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes li {
+    border: 1px solid #b56663;
+    padding: 15px;
+    margin:15px;
+}
+
+.recipes h3 {
+    border-bottom: 0;
+}
+
+.recipes a {
+    color: #7facaa;
+    text-decoration: none;
+}
+
+.header {
+    padding: 20px;
+    background-color: #b56663;
+}
+.content{
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+}
+
+.foot {
+    padding: 20px 0 20px 0;
+}

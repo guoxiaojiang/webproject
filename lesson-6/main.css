@@ -1,0 +1,98 @@
+/*页面初始化*/
+html, body, h1, h2, h3, p, li, ol, ul, a{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+h1 {
+    margin: 10px 0 15px 0;
+}
+
+h2 {
+    margin: 10px 0 20px 0;
+}
+
+h3 {
+    margin: 15px 0;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 3px;
+}
+h1, h2, h3{
+    color: #79B1A3;
+}
+
+.nav li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*以下顺序按照事件发生的顺序，否则，某些效果不生效*/
+
+/*未访问的超连接*/
+a:link{
+    color: darkblue;
+}
+
+ul{
+    padding: 0 0 0 50px;
+}
+
+ol{
+    padding: 0 0 0 50px;
+}
+
+
+/*鼠标移到超连接上时*/
+a:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+
+/*被选定的超链接*/
+a:active{
+    color: yellow;
+    text-decoration: underline;
+}
+
+/*已访问过的超链接*/
+a:visited{
+    color: gray;
+}
+
+/*类选择器*/
+.nav {
+    padding-left:0;
+}
+
+.nav a{
+    color: #00B2C5;
+    text-decoration: none;
+}
+
+.recipes{
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes li {
+    border: 1px solid #b56663;
+    padding: 15px;
+    margin:15px;
+}
+
+.recipes h3 {
+    border-bottom: 0;
+}
+
+.recipes a {
+    color: #7facaa;
+    text-decoration: none;
+}
