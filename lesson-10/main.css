@@ -5,30 +5,26 @@ html, body, h1, h2, h3, p, li, ol, ul, a{
     border: 0;
 }
 
-body {
-    padding: 20px;
-}
 
 h1 {
     margin: 10px 0 15px 0;
+    color: #ffffff;
+    text-align: center;
 }
 
 h2 {
+    color: #79B1A3;
     margin: 10px 0 20px 0;
+    text-align: center;
 }
 
 h3 {
+    color: #79B1A3;
     margin: 15px 0;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 3px;
 }
-h1, h2, h3{
-    color: #79B1A3;
-}
 
-.nav li{
-    display: inline;
-}
 a{
     text-decoration: none;
     color: black;
@@ -40,30 +36,27 @@ a{
 a:link{
     color: darkblue;
 }
-/*鼠标移到超连接上时*/
-a:hover{
-    text-decoration: underline;
-    color: darkred;
+
+ul{
+    padding: 0 0 0 50px;
 }
 
-/*被选定的超链接*/
-a:active{
-    color: yellow;
-    text-decoration: underline;
-}
-
-/*已访问过的超链接*/
-a:visited{
-    color: gray;
+ol{
+    padding: 0 0 0 50px;
 }
 
 /*类选择器*/
 .nav {
     padding-left:0;
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
 }
 
 .nav a{
-    color: #00B2C5;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -87,10 +80,35 @@ a:visited{
     text-decoration: none;
 }
 
-ul{
-    padding: 0 0 0 50px;
+.header {
+    padding: 20px;
+    background: #b56663 url(imgs/bg-header.jpg)
 }
 
-ol{
-    padding: 0 0 0 50px;
+.logo {
+    text-align: center;
+}
+.content{
+    width: 670px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+    background: #eeeeee url(imgs/bg-main.jpg) top left repeat;
+}
+
+/*美食图片信息*/
+.photos {
+    padding-left: 0;
+}
+
+.photos li {
+    display: inline;
+}
+
+body {
+    background: #333333 url(imgs/bg-body.jpg) top left repeat;
+}
+
+.foot {
+    padding: 20px 0 20px 0;
 }
