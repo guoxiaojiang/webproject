@@ -58,11 +58,22 @@ ol{
 .nav a{
     color: #ffffff;
     text-decoration: none;
+    display: inline-block;
+    height: 56px;
+    line-height: 56px;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 0 20px;
+}
+
+.nav a:hover {
+    background-color: #a0000f;
 }
 
 .recipes{
     list-style-type: none;
     padding: 0;
+    background: white url(imgs/bg-main.jpg);
 }
 
 .recipes li {
@@ -133,6 +144,16 @@ body {
     background: #333333 url(imgs/bg-body.jpg) top left repeat;
 }
 
-.foot {
+.footer {
     padding: 20px 0 20px 0;
+}
+
+.footer p {
+    color: #aaaaaa;
+    text-align: center;
+    /*字母改成大写*/
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight: bold;
+    font-style: italic;
 }
