@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发布美食</title>
+    <link type="text/css" rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="header">
+    <div class="login-bar">
+        <a class="qq-login" href="#">QQ登录</a>
+        <a class="wb-login" href="http://www.sina.com">微博登录</a>
+    </div>
+    <div class="logo">
+        <img src="imgs/new_year_logo.gif" alt="美食网">
+    </div>
+    <ul class="nav">
+        <li><a href="home.html">主页</a></li>
+        <li><a href="recipes.html">美食</a></li>
+        <li><a href="publishrecipe.html">发布</a></li>
+    </ul>
+</div>
+
+<div  class="content">
+    <form action="suggest.html" class="content-form">
+        <table class="publish-content">
+            <tr>
+                <td><label for="recipe-name">食谱名称</label>
+                <td><input type="text" id="recipe-name"></td></td>
+            </tr>
+            <tr>
+                <td><label for="provider-name">作者姓名</label></td>
+                <td><input type="text" id="provider-name"></td>
+            </tr>
+            <tr>
+                <td><label>上传过程图片</label></td>
+                <td><input type="file" id="uploadfile"></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name = "type" id="type-a" checked value="1"> <label for="type-a">原创</label></td>
+                <td><input type="radio" name = "type" id="type-b" value="2"> <label for="type-b">转载</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>适合人数</label>
+                </td>
+                <td>
+                    <select name="person-count" id="p-count">
+                        <option value="one">1人</option>
+                        <option value="two">2人</option>
+                        <option value="three" selected>3人</option>
+                        <option value="four">多人</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ingredients">材料</label></td>
+                <td><textarea id="ingredients"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="checkbox" id="ispublic" checked><label for="ispublic">公开</label></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td-btn">
+                    <input type="submit" value="发布">
+                    <input type="reset" value="重填">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</div>
+</body>
+</html>

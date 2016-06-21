@@ -157,3 +157,32 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+
+textarea {
+    resize:none;
+}
+
+.publish-content {
+    width: 100%;
+}
+
+.publish-content td {
+    padding: 5px;
+}
+
+.td-btn {
+    text-align: center;
+}
+
+.publish-content input[type=text] {
+    width:500px;
+    padding: 7px;
+    border: 2px solid #79B1A3;
+}
+
+#ingredients {
+    height: 100px;
+    width: 500px;
+    padding: 7px;
+    border: 2px solid #79B1A3;
+}
