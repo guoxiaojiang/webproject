@@ -1,0 +1,244 @@
+/*页面初始化*/
+html, body, h1, h2, h3, p, li, ol, ul, a{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+h1 {
+    margin: 10px 0 15px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    color: #79B1A3;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+h3 {
+    color: #79B1A3;
+    margin: 15px 0;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*以下顺序按照事件发生的顺序，否则，某些效果不生效*/
+
+/*未访问的超连接*/
+a:link{
+    color: darkblue;
+}
+
+ul{
+    padding: 0 0 0 50px;
+}
+
+ol{
+    padding: 0 0 0 50px;
+}
+
+/*类选择器*/
+.nav {
+    padding-left:0;
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    height: 56px;
+    line-height: 56px;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 0 20px;
+}
+
+.nav a:hover {
+    background-color: #a0000f;
+}
+
+.recipes{
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes li {
+    border: 1px solid #b56663;
+    padding: 15px;
+    margin:15px;
+    height: 160px;
+}
+
+.recipes h3 {
+    border-bottom: 0;
+}
+
+.recipes a {
+    color: #7facaa;
+    text-decoration: none;
+}
+
+.recipes img {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.recipes p{
+    margin-left: 170px;
+    height: 91px;
+    overflow: hidden;
+}
+
+.header {
+    padding: 10px;
+    background: #b56663 url(imgs/bg-header.jpg)
+}
+
+/*登录条*/
+.login-bar {
+    text-align: right;
+    margin: 10px 30px 0 0;
+    position: fixed;
+    z-index: 20;
+    right: 30px;
+    background-color: rgba(138, 32, 10, 0.75);
+    padding: 10px;
+}
+
+.login-bar a {
+    color: white;
+    text-decoration: none;
+    padding-left: 28px;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    background: url(imgs/login-icon.gif) no-repeat;
+}
+
+.login-bar a.qq-login {
+    background-position: 0 0;
+}
+
+.login-bar a.wb-login {
+    background-position: 0 -28px;
+}
+
+.logo {
+    text-align: center;
+}
+.content{
+    width: 670px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+    background: #eeeeee url(imgs/bg-main.jpg) top left repeat;
+}
+
+/*美食图片信息*/
+.photos {
+    padding-left: 0;
+}
+
+.photos li {
+    display: inline;
+}
+
+body {
+    background: #333333 url(imgs/bg-body.jpg) top left repeat;
+    font: 14px/24px 微软雅黑, 黑体, Verdana, Arial, sans-serif;
+}
+
+.footer {
+    padding: 20px 0 20px 0;
+}
+
+.footer p {
+    color: #aaaaaa;
+    text-align: center;
+    /*字母改成大写*/
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+textarea {
+    resize:none;
+}
+
+.publish-content {
+    width: 100%;
+}
+
+.publish-content td {
+    padding: 5px;
+}
+
+.td-btn {
+    text-align: center;
+}
+
+.publish-content input[type=text] {
+    width:500px;
+    padding: 7px;
+    border: 2px solid #79B1A3;
+}
+
+#ingredients {
+    height: 100px;
+    width: 500px;
+    padding: 7px;
+    border: 2px solid #79B1A3;
+}
+
+.home-imgbox {
+    height: 640px;
+    width: 100%;
+    background: url("imgs/main.jpg");
+    position: relative;
+}
+
+.home-imgbox .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.home-imgbox .info_wrap {
+    background: url(imgs/nw_logo.gif) 0 center no-repeat;
+    height: 200px;
+    width: 670px;
+    margin:0 auto;
+    padding-left: 300px;
+}
+
+.home-imgbox .info_wrap h3{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    height: 44px;
+    border:0;
+}
+
+.home-imgbox .info_wrap p{
+    color: #ffffff;
+    font-size: 14px;
+    line-height:24px;
+    padding-top: 5px;
+}
