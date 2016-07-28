@@ -1,0 +1,102 @@
+/*页面初始化*/
+html, body, h1, h2,h3, p, ol, ul, li, a{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/*通用样式*/
+h1{
+    margin: 10px 0 15px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2{
+    color: #79B1A3;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+h3{
+    color: #79B1A3;
+    margin: 15px 0;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 3px;
+}
+
+ul{
+    padding: 0 0 0 50px;
+}
+
+ol{
+    padding: 0 0 0 50px;
+}
+
+/*网页布局*/
+.header{
+    padding: 10px;
+    background-color: #b56663;
+}
+
+.main-content{
+    width: 670px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+}
+
+/*logo*/
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 184px;
+    height: 140px;
+}
+
+/*页面导航条*/
+.nav{
+    padding-left: 0;
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*菜单列表*/
+.recipes{
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes li{
+    border: 1px solid #b56663;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.recipes h3{
+    border-bottom: 0;
+}
+
+.recipes a{
+    color: #7facaa;
+    text-decoration: none;
+}
+
+/*美食详细页面*/
+/*图片信息*/
+.photos{
+    padding-left: 0;
+}
+.photos li{
+    display: inline;
+}
